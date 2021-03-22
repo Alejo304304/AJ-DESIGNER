@@ -1,328 +1,290 @@
-/* fuentes personalizadas*/
-@font-face {
-  font-family: "font_tex_main";
-  src: url("../font/rockwell_regular.ttf");
-}
-@font-face {
-    font-family: "font_title_main";
-    src: url("../font/rockwell_bold.ttf");
-}
-@font-face {
+
+@media (min-width: 500px){
+
+  /* fuentes personalizadas*/
+  @font-face {
+    font-family: "font_tex_main";
+    src: url("../font/rockwell_regular.ttf");
+  }
+  @font-face {
+      font-family: "font_title_main";
+      src: url("../font/rockwell_bold.ttf");
+  }
+  @font-face {
+      font-family: "font_nav";
+      src: url("../font/productsansblack.ttf");
+  }
+  /*-------------------------*/
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #navigation_bar {
+  	width: 1000px;
+    height: 95px;
+    top: 80px;
+    position: center;
+    right: 6%;
+    left: 6%;
+    margin: 0px auto;
+    padding: 0px;
+  	}
+  #navigation_bar .icon_bar img{
+  	position: ;
+  	width: auto;
+  	height: 70px;
+  	margin: 40px 10px 10px 10px;
+  	padding: 0;
+  	}
+  .icon_bar {
+  	float: left;
+  	width: 100px
+  	height: 1000px;
+  	}
+  .icon_bar .icon_bar{
+    display: none;
+  }
+  .option_bar{
+  	position: ;
+  	float: right;
+  	width: 400px;
+  	height: 15px;
+  	align-items: center;
+  	color: white;
+  	background-color: ;
+    padding: 35px 0px 0px 0px;
+  	margin: 0px 10px 10px 10px;
+  }
+  .option_bar li {
+    list-style: none;
+  }
+  .option_bar a img {
+    display: none;
+  }
+
+  .option_bar .contacto a, .proyectos a, .servicios a, .home a{
+  	color: #ffffff;
+  	text-decoration-line: none;
+  	font-family: "font_nav";
+  	float: right;
+  	align-items: center;
+  	font-size: 15px;
+  	margin: 40px 9px 9px 9px;
+  }
+  /*-------------------------*/
+
+
+  body {
+    background-color: ;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* HEADER-ALEJANDRO AMEZQUITA-DISEÑADOR FREELANCE */
+  #header{
+      background-position: center;
+      margin: 0 0 0 0 ;
+      padding: 0 0 0 0;
+      background-color: #171717;
+      width: auto;
+      height: 635px;
+      align-items: center;
+      }
+  #main_head {
+    width: 1000px;
+    height: 320px;
+    position: center;
+    right: 6%;
+    left: 6%;
+    margin: 140px auto;
+    padding: 0px auto;
+    background-color: ;
+    }
+  #designer {
+    align-items: center;
+    width: 900px;
+    height: 200px;
+    position: center;
+    margin: 10px auto;
+    padding: 0px auto;
+    background-color: ;
+    }
+  #designer .name_designer a {
+    align-content: center;
     font-family: "font_nav";
-    src: url("../font/productsansblack.ttf");
-}
-/*-------------------------*/
-#navigation_bar {
-	width: 1000px;
-  height: 95px;
-  top: 80px;
-  position: center;
-  right: 6%;
-  left: 6%;
-  margin: 0px auto;
-  padding: 0px;
-	}
-#navigation_bar .icon_bar img{
-	position: ;
-	width: auto;
-	height: 70px;
-	margin: 40px 10px 10px 10px;
-	padding: 0;
-	}
-.icon_bar {
-	float: left;
-	width: 100px
-	height: 1000px;
-	}
-.option_bar{
-	position: ;
-	float: right;
-	width: 380px;
-	height: 15px;
-	align-items: center;
-	color: white;
-	background-color: ;
-  padding: 35px 0px 0px 0px;
-	margin: 0px 10px 10px 10px;
-}
-.option_bar .contacto a, .proyectos a, .servicios a, .home a{
-	color: #ffffff;
-	text-decoration-line: none;
-	font-family: "font_nav";
-	float: right;
-	align-items: center;
-	font-size: 15px;
-	height: 70px
-	width: 25px;
-	margin: 40px 10px 10px 10px;
-	background-color: ;
-}
-/*-------------------------*/
+    text-decoration: none;
+    text-decoration-line: none;
+    color: #ffffff;
+    font-size: 60px;
+    margin: 0px 15% 0 15%;
+    padding: 0px auto;
+  }
+  .freelance_designer {
+    margin: 20px 0px 0px 0px;
+  }
+  .freelance_designer a{
+    font-family: "font_title_main";
+    font-size: 40px;
+    text-decoration-line: none;
+    color: #ffffff;
+    margin: 0 25% 0 25%;
+  }
+  .job_designer {
+    width: 806px;
+    height: 50px;
+    margin: 100px auto;
+    padding: 0px auto;
+    background-color: ;
+    }
+  .job_designer a {
+    font-family: "font_tex_main" ;
+    font-size: 20px;
+    text-decoration-line: none;
+    color: #BEBEBE;
+    }
 
-
-body {
-  background-color: ;
-  margin: 0px;
-  padding: 0px;
-}
-
-/* HEADER-ALEJANDRO AMEZQUITA-DISEÑADOR FREELANCE */
-#header{
-    background-position: center;
-    margin: 0 0 0 0 ;
-    padding: 0 0 0 0;
-    background-color: #171717;
+  #main_page {
+    background-color: ;
     width: auto;
     height: 635px;
-    align-items: center;
-    }
-#main_head {
-  width: 1000px;
-  height: 320px;
-  position: center;
-  right: 6%;
-  left: 6%;
-  margin: 140px auto;
-  padding: 0px auto;
-  background-color: ;
+    margin: 0 auto;
+    padding: 0 auto;
   }
-#designer {
-  align-items: center;
-  width: 900px;
-  height: 200px;
-  position: center;
-  margin: 10px auto;
-  padding: 0px auto;
-  background-color: ;
+  #container_jobs {
+    width: 1100px;
+    height: 1370px;
+    background-color: ;
+    margin: 20px auto 0 auto;
+    padding: 0 auto;
   }
-#designer .name_designer a {
-  align-content: center;
-  font-family: "font_nav";
-  text-decoration: none;
-  text-decoration-line: none;
-  color: #ffffff;
-  font-size: 60px;
-  margin: 0px 15% 0 15%;
-  padding: 0px auto;
-}
-.freelance_designer {
-  margin: 20px 0px 0px 0px;
-}
-.freelance_designer a{
-  font-family: "font_title_main";
-  font-size: 40px;
-  text-decoration-line: none;
-  color: #ffffff;
-  margin: 0 25% 0 25%;
-}
-.job_designer {
-  width: 806px;
-  height: 50px;
-  margin: 100px auto;
-  padding: 0px auto;
-  background-color: ;
+  .brandig, .modeling, .layout {
+    float: left;
+    width: 250px;
+    height: 660px;
+    margin: 20px 55px 0 55px;
+    padding: 0 auto;
+    background-color: ;
   }
-.job_designer a {
-  font-family: "font_tex_main" ;
-  font-size: 20px;
-  text-decoration-line: none;
-  color: #BEBEBE;
+  .brandig img, .modeling img, .layout img {
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
   }
 
-#main_page {
-  background-color: ;
-  width: auto;
-  height: 635px;
-  margin: 0 auto;
-  padding: 0 auto;
-}
-#container_jobs {
-  width: 1100px;
-  height: 1370px;
-  background-color: ;
-  margin: 20px auto 0 auto;
-  padding: 0 auto;
-}
-.brandig, .modeling, .layout {
-  float: left;
-  width: 250px;
-  height: 660px;
-  margin: 20px 55px 0 55px;
-  padding: 0 auto;
-  background-color: ;
-}
-.brandig img, .modeling img, .layout img {
-  margin: 0 auto;
-  width: 250px;
-  height: auto;
-}
+  .packaging, .publicity, .nothing {
+    float: left;
+    width: 250px;
+    height: 675px;
+    margin: 20px 55px 0 55px;
+    padding: 0 auto;
+    background-color: ;
+  }
+  .packaging img, .publicity img, .nothing img  {
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+  }
 
-.packaging, .publicity, .nothing {
-  float: left;
-  width: 250px;
-  height: 675px;
-  margin: 20px 55px 0 55px;
-  padding: 0 auto;
-  background-color: ;
+  .brandig_text, .modeling_text, .layout_text, .packaging_text, .publicity_text{
+    background-color: ;
+    margin: 0 auto;
+    padding: 0 auto;
+    width: 240px;
+    height: 420px;
+  }
+  .subtitle_jobs {
+    color: #121212;
+    font-family: "font_title_main" ;
+    font-style: none;
+    font-size: 20px;
+  }
+  .text_jobs {
+    color: #3e3e3e;
+    text-align: left;
+    line-height: 1.5;
+    font-family: "font_tex_main" ;
+    font-style: none;
+    font-size: 17px;
+  }
 }
-.packaging img, .publicity img, .nothing img  {
-  margin: 0 auto;
-  width: 250px;
-  height: auto;
-}
+/* DISPOSITIVOS MOVILES  */
 
-.brandig_text, .modeling_text, .layout_text, .packaging_text, .publicity_text{
-  background-color: ;
-  margin: 0 auto;
-  padding: 0 auto;
-  width: 240px;
-  height: 420px;
-}
-.subtitle_jobs {
-  color: #121212;
-  font-family: "font_title_main" ;
-  font-style: none;
-  font-size: 20px;
-}
-.text_jobs {
-  color: #3e3e3e;
-  text-align: left;
-  line-height: 1.5;
-  font-family: "font_tex_main" ;
-  font-style: none;
-  font-size: 17px;
-}
+@media (max-width: 500px){
 
+  /* fuentes personalizadas*/
+  @font-face {
+    font-family: "font_tex_main";
+    src: url("../font/rockwell_regular.ttf");
+  }
+  @font-face {
+      font-family: "font_title_main";
+      src: url("../font/rockwell_bold.ttf");
+  }
+  @font-face {
+      font-family: "font_nav";
+      src: url("../font/productsansblack.ttf");
+  }
+  /*----------------------------------------*/
+ * {
+   margin: auto;
+   padding: 0 auto;
+ }
+ body {
+   background-color: red;
+   width: auto;
+   height: auto;
+ }
+ header {
+  background: #171717;
+	color: white;
+	height: 500px;
+	width: 100%;
+	left: 0;
+	top: 0;
+  }
 
-@media (max-width: 500px) {
+  #navigation_bar {
+    width: 100%;
+    height: 100px;
+    background-color: blue;
+  }
 
-/* fuentes personalizadas*/
-@font-face {
-  font-family: "font_tex_main";
-  src: url("../font/rockwell_regular.ttf");
-}
-@font-face {
-    font-family: "font_title_main";
-    src: url("../font/rockwell_bold.ttf");
-}
-@font-face {
+  .icon_bar .icon_bar2{
+    display: none;
+   }
+
+ .icon_bar  img{
+   margin: 10px 10px 10px 8%;
+   height: 70px;
+   width: auto;
+  }
+
+  .option_bar {
+    position: sticky;
+    background-color: grey;
+    margin: -80px 10px 10px 30%;
+    text-align: right;
+  }
+  .option_bar .home a, .proyectos a {
+    display: none;
+  }
+  .option_bar li {
+    list-style: none;
+  }
+  .option_bar a {
+    color: #fff;
     font-family: "font_nav";
-    src: url("../font/productsansblack.ttf");
-}
-/*-------------------------*/
-* {
-  padding: 0px 0px;
-  margin: 0px 0px;
-}
-body {
-  background-color: #fff;
-}
-header {
-  background-color:;
-}
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .option_bar .contacto, .servicios {
+    margin: 10px;
+  }
 
-header img {
-  width: auto;
-  height: 50px;
-  padding: 15px;
-}
 
-#navigation_bar {
-background-color: #171717;
-  width: auto;
-  height: 80px;
-}
-
-#navigation_bar .option_bar {
-  background-color: ;
-  float: right;
-  margin: -50px 20px 0 0;
-}
-
-#navigation_bar .option_bar .contacto a{
-  font-family: "font_nav";
-  font-size: 20px;
-  color: #fff;
-  text-decoration: none;
-  text-decoration-line: none;
-}
-.option_bar .proyectos a, .servicios a, .home a {
+.brandig_contents img, .layout_contents img, .publicity_contents img, .modeling_contents img, .packaging_contents img{
   display: none;
 }
-/*----------------------------------------*/
-
-#main_head {
-  background-color: ;
-  width: 100% ;
-  height: 150px;
-}
-#main_head #designer {
-  background-color: ;
-  width: 350px ;
-  height: 100px;
-  margin: auto;
-  text-align: center;
-}
-
-.name_designer a {
-  color: #fff;
-  font-family: "font_nav" ;
-  font-size: 32px;
-  text-decoration: none;
-  text-decoration-line: none;
-}
-.name_designer, .freelance_designer{
-  margin: 10px;
-}
-.freelance_designer a{
-  color: #fff;
-  font-family: "font_title_main" ;
-  font-size: 27px;
-  text-decoration: none;
-  text-decoration-line: none;
-  line-height: 1.5;
-}
-
-.job_designer {
-  text-align: center;
-  margin: 15px;
-}
-.job_designer a{
-  color: #fff;
-  font-family: "font_title_main";
-  font-size: 10.5px;
-  text-decoration: none;
-  text-decoration-line: none;
-  line-height: 1.5;
-}
-
-/*-----------------------------------------*/
-
-#main_page {
-  background-color: ;
-  width: 100%;
-  height: 500px;
-}
-#container_jobs {
-  background-color: ;
-  padding: 10px;
-  margin: auto;
-  width: 90%;
-  height: 400px;
-}
-
-.brandig, .layout, .modeling, .publicity, .packaging{
-  background-color: ;
-  float: left;
-  width: 45.2%;
-  margin: 5px;
-  padding: 5px;
-}
-
-.brandig img, .layout img, .modeling img, .publicity img, .packaging img {
-  width: 195px;
-  height: auto;
-}
-
-
 }
