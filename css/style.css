@@ -1,5 +1,4 @@
-
-@media (min-width: 500px){
+@media (min-width: 500px) and (max-width: 1000px){
 
   /* fuentes personalizadas*/
   @font-face {
@@ -263,6 +262,286 @@
   }
 
 }
+/*---PANTALLAS MAYORES A 1000px---*/
+
+
+@media (min-width: 1000px){
+  header {
+    background: url('../img/header/baner_home.jpg') center;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: #171717;
+    width: 100%;
+    height: 3000px;
+    align-items: center;
+    }
+    /* fuentes personalizadas*/
+    @font-face {
+      font-family: "font_tex_main";
+      src: url("../font/rockwell_regular.ttf");
+    }
+    @font-face {
+        font-family: "font_title_main";
+        src: url("../font/rockwell_bold.ttf");
+    }
+    @font-face {
+        font-family: "font_nav";
+        src: url("../font/productsansblack.ttf");
+    }
+    /*-------------------------*/
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #navigation_bar {
+    	width: 1000px;
+      height: 95px;
+      top: 80px;
+      position: center;
+      right: 6%;
+      left: 6%;
+      margin: 0px auto;
+      padding: 0px;
+    	}
+    #navigation_bar .icon_bar img{
+    	position: ;
+    	width: auto;
+    	height: 70px;
+    	margin: 40px 10px 10px 10px;
+    	padding: 0;
+    	}
+    .icon_bar {
+    	float: left;
+    	width: 100px
+    	height: 1000px;
+    	}
+    .icon_bar .icon_bar{
+      display: none;
+    }
+    .option_bar{
+    	position: ;
+    	float: right;
+    	width: 400px;
+    	height: 15px;
+    	align-items: center;
+    	color: white;
+    	background-color: ;
+      padding: 35px 0px 0px 0px;
+    	margin: 0px 10px 10px 10px;
+    }
+    .option_bar li {
+      list-style: none;
+    }
+    .option_bar a img {
+      display: none;
+    }
+
+    .option_bar .contacto a, .proyectos a, .servicios a, .home a{
+    	color: #ffffff;
+    	text-decoration-line: none;
+    	font-family: "font_nav";
+    	float: right;
+    	align-items: center;
+    	font-size: 15px;
+    	margin: 40px 9px 9px 9px;
+    }
+
+    .option_bar a:hover {
+       color: #717171;
+     }
+    .movile_service_title h1{ display: none;}
+    /*-------------------------*/
+    body {
+      background-color: ;
+      margin: 0px;
+      padding: 0px;
+    }
+
+    /* HEADER-ALEJANDRO AMEZQUITA-DISEÑADOR FREELANCE */
+    #header{
+        background: url('../img/header/baner_home2.jpg') center;
+        position: relative;
+        margin: 0 auto;
+        padding: 0 auto;
+        background-color: #171717;
+        width: 100%;
+        height: 950px;
+        align-items: center;
+        }
+    #main_head {
+      width: 100%;
+      height: 320px;
+      position: center;
+      right: 6%;
+      left: 6%;
+      margin: 140px auto;
+      padding: 0px auto;
+      background-color: ;
+      }
+    #designer {
+      align-items: center;
+      width: 900px;
+      height: 200px;
+      position: center;
+      margin-top: 300px;
+      margin-right: auto;
+      margin-left: auto;
+      padding: 0px auto;
+      background-color: ;
+      }
+    #designer .name_designer a {
+      align-content: center;
+      font-family: "font_nav";
+      text-decoration: none;
+      text-decoration-line: none;
+      color: #ffffff;
+      font-size: 60px;
+      margin: 0px 15% 0 15%;
+      padding: 0px auto;
+    }
+    .freelance_designer {
+      margin: 20px 0px 0px 0px;
+    }
+    .freelance_designer a{
+      font-family: "font_title_main";
+      font-size: 40px;
+      text-decoration-line: none;
+      color: #ffffff;
+      margin: 0 25% 0 25%;
+    }
+    .job_designer {
+      width: 806px;
+      height: 50px;
+      margin: 220px auto;
+      padding: 0px auto;
+      background-color: ;
+      }
+    .job_designer a {
+      font-family: "font_tex_main" ;
+      font-size: 20px;
+      text-decoration-line: none;
+      color: #BEBEBE;
+      }
+
+    #main_page {
+      width: 100%;
+      height: auto;
+      background-color: ;
+    }
+    #container_jobs {
+      width: 1100px;
+      height: 1370px;
+      background-color: ;
+      margin: 20px auto 20px auto;
+      padding: 0 auto;
+      background-color: ;
+    }
+    .brandig, .modeling, .layout {
+      float: left;
+      width: 250px;
+      height: 660px;
+      margin: 20px 55px 0 55px;
+      padding: 0 auto;
+      background-color: ;
+    }
+    .brandig img, .modeling img, .layout img {
+      margin: 0 auto;
+      width: 250px;
+      height: auto;
+    }
+
+    .packaging, .publicity, .nothing {
+      float: left;
+      width: 250px;
+      height: 675px;
+      margin: 20px 55px 0 55px;
+      padding: 0 auto;
+      background-color: ;
+    }
+    .packaging img, .publicity img, .nothing img  {
+      margin: 0 auto;
+      width: 250px;
+      height: auto;
+    }
+
+    .brandig_text, .modeling_text, .layout_text, .packaging_text, .publicity_text{
+      background-color: ;
+      margin: 0 auto;
+      padding: 0 auto;
+      width: 240px;
+      height: 420px;
+    }
+    .subtitle_jobs {
+      color: #121212;
+      font-family: "font_title_main" ;
+      font-style: none;
+      font-size: 20px;
+      padding-top: 15px;
+    }
+    .text_jobs {
+      color: #3e3e3e;
+      text-align: left;
+      line-height: 1.5;
+      font-family: "font_tex_main" ;
+      font-style: none;
+      font-size: 16px;
+    }
+
+    footer {
+      width: auto;
+      height: 265px;
+      background-color: #171717;
+      background: url('../img/header/baner_home2.jpg') center;
+     }
+
+  #footer_contents {
+    margin: 20px auto 20px auto;
+    width: 1100px;
+    height: 265px;
+  }
+    .logo_footer, .map_footer {
+      width: 200px;
+      height: 250px;
+      margin: 0 auto;
+      padding: 0 auto;
+      background-color: ;
+      float: left;
+    }
+
+    .text_footer {
+      text-align: center;
+      width: 600px;
+      height: 250px;
+      margin: 0 auto 0 60px;
+      padding: 0 auto;
+      float: left;
+
+    }
+    .logo_footer img {
+      padding: 20px 40px;
+      width: 150px;
+      margin: 0 auto;
+
+    }
+    .map_footer img {
+      height: 260px;
+      padding: 0 -50px;
+    }
+    .text_footer p {
+      color: #BEBEBE;
+      font-family: "font_tex_main";
+      text-decoration: none;
+      padding: 80px;
+    }
+
+
+  }
+
+/*-------------------------------------*/
+
 /* DISPOSITIVOS MOVILES  */
 
 @media (max-width: 500px){
@@ -393,7 +672,7 @@
   #container_jobs {
     width: 98%;
     height: auto;
-    background-color: red;
+    background-color: ;
 
   }
 
