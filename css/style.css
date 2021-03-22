@@ -152,18 +152,17 @@
     }
 
   #main_page {
+    width: 100%;
+    height: auto;
     background-color: ;
-    width: auto;
-    height: 635px;
-    margin: 0 auto;
-    padding: 0 auto;
   }
   #container_jobs {
     width: 1100px;
     height: 1370px;
     background-color: ;
-    margin: 20px auto 0 auto;
+    margin: 20px auto 20px auto;
     padding: 0 auto;
+    background-color: ;
   }
   .brandig, .modeling, .layout {
     float: left;
@@ -214,6 +213,53 @@
     font-style: none;
     font-size: 17px;
   }
+
+  footer {
+    width: auto;
+    height: 265px;
+    background-color: #171717;
+   }
+
+#footer_contents {
+  margin: 20px auto 20px auto;
+  width: 1100px;
+  height: 265px;
+}
+  .logo_footer, .map_footer {
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0 auto;
+    background-color: ;
+    float: left;
+  }
+
+  .text_footer {
+    text-align: center;
+    width: 600px;
+    height: 250px;
+    margin: 0 auto 0 60px;
+    padding: 0 auto;
+    float: left;
+
+  }
+  .logo_footer img {
+    padding: 20px 40px;
+    width: 150px;
+    margin: 0 auto;
+
+  }
+  .map_footer img {
+    height: 260px;
+    padding: 0 -50px;
+  }
+  .text_footer p {
+    color: #BEBEBE;
+    font-family: "font_tex_main";
+    text-decoration: none;
+    padding: 80px;
+  }
+
 }
 /* DISPOSITIVOS MOVILES  */
 
@@ -234,7 +280,7 @@
   }
   /*----------------------------------------*/
  * {
-   margin: auto;
+   margin: 0 auto;
    padding: 0 auto;
  }
  body a:hover {
@@ -328,6 +374,7 @@
 
   #main_page {
     width: 100%;
+
   }
  .movile_service_title {
    width: 90%;
@@ -344,6 +391,7 @@
   #container_jobs {
     width: 98%;
     height: auto;
+
   }
 
  #container_jobs section {
@@ -352,22 +400,49 @@
    width: 90%;
    height: auto;
  }
-#container_jobs section img, .brandig_text, .layout_text, .publicity_text, .packaging_text, .modeling_text {
-  margin: 7px 5%;
-  width: 200px;
-  height: auto;
-}
+  #container_jobs section img, .brandig_text, .layout_text, .publicity_text, .packaging_text, .modeling_text {
+    margin: 7px 30px;
+    width: 200px;
+    height: auto;
+  }
 
-#container_jobs section .subtitle_jobs {
-  font-family: "font_title_main";
-  font-size: 23px;
-  color: #000000;
-}
-#container_jobs section .text_jobs {
-  font-family: "font_tex_main";
-  font-size: 20px;
-  color: #000000;
-}
+  #container_jobs section .subtitle_jobs {
+    font-family: "font_title_main";
+    font-size: 23px;
+    color: #000000;
+  }
+  #container_jobs section .text_jobs {
+    font-family: "font_tex_main";
+    font-size: 20px;
+    color: #000000;
+  }
 
+  #footer_contents .logo_footer img, .map_footer img  {
+    display: none;
+  }
 
+  footer {
+    width: 100%;
+    height: 300px;
+    background-color: #171717;
+  }
+  #footer_contents {
+    width: 90%;
+    height: 200px;
+    margin-top: 200px;
+
+  }
+  .text_footer {
+    width: 80%;
+    height: 200px;
+    padding-top: 100px; 
+  }
+
+  .text_footer p {
+    text-align: center;
+    font-size: 12px;
+    font-family: "font_tex_main";
+    text-decoration: none;
+    color: #BEBEBE;
+  }
 }
