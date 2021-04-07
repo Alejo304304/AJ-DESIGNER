@@ -1,0 +1,260 @@
+/* fuentes personalizadas*/
+  @font-face {
+    font-family: "font_tex_main";
+    src: url("../../font/rockwell_regular.ttf");
+  }
+  @font-face {
+      font-family: "font_title_main";
+      src: url("../../font/rockwell_bold.ttf");
+  }
+  @font-face {
+      font-family: "font_nav";
+      src: url("../../font/productsansblack.ttf");
+  }
+
+/*---------PANTALLAS MAYORES DE 1400px---------*/
+/*---------------------------------*/
+@media (min-width: 1400px) {
+  * {
+    margin: 0 auto;
+    padding: 0 auto;
+    }
+
+/*--------Barra de navegacion-------*/
+.respmenu input, label{
+  display: none;
+}
+  #barra_navegacion {
+    background: #fff;
+    height: 60px;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+     box-shadow: 2px 2px 5px #818181;
+    }
+
+  .icon_nav {
+    width: 70%;
+    height: 60px;
+  }
+  .icon_nav img {
+    width: auto;
+    height: 45px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  nav {
+    position: absolute;
+    top: 2px;
+    right: 15%;
+    float: right;
+    width: 35%;
+    height: 20px;
+    padding-top: 20px;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    display: flex;
+  }
+  nav ul li {
+    display: inline-block;
+  }
+  nav ul li a{
+    color: #000;
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+    font-family: "font_nav";
+    font-size: 15px;
+
+  }
+  nav ul li a:hover {
+    color: #BFBFBF;
+  }
+    nav ul li a:hover {
+      transition: color 0.3s;
+    }
+
+  /*------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------*/
+
+
+/*---------FOOTER---------*/
+  #footer {
+      margin-top: 150px;
+      width: 100%;
+      height: 430px;
+      background-color: #00181C;
+    }
+    .contenedor_footer {
+      width: 85%;
+      height: 400px;
+    }
+   .redes_footer, .mapa_footer {
+     margin-top: 35px;
+     float: left;
+     width: 30%;
+     height: 340px;
+   }
+
+      .redes_footer {
+        margin-top: 70px;
+       }
+      .redes_footer img {
+        width: 35px;
+        height: auto;
+        margin: 5px;
+      }
+      .redes {
+        width: 70%;
+        height: 45px;
+        margin: 8px;
+        margin-left: 15%;
+      }
+      .redes p {
+        position: relative;
+        top: -35px;
+        left: 50px;
+      }
+      .redes a {
+        color: #BFBFBF;
+        font-family: "font_tex_main";
+        font-size: 15px;
+        text-decoration: none;
+      }
+              .redes a:hover {
+                color: #fff;
+              }
+              .redes a:hover {
+                transition: color 0.3s;
+              }
+
+
+   .text_footer {
+     float: left;
+     width: 40%;
+     height: 340px;
+   }
+      .text_footer img {
+        width: 50px;
+        height: auto;
+        margin: 60px 47%;
+      }
+      .text_footer p {
+        text-decoration: none;
+        font-family: "font_tex_main";
+        font-size: 15px;
+        color: #BFBFBF;
+        text-align: center;
+      }
+    .mapa_footer p {
+      margin-top: 25px;
+      margin-left: 25%;
+      color: #BFBFBF;
+      font-family: "font_tex_main";
+      font-size: 15px;
+    }
+      .mapa_footer img {
+        width: 140px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 30%;
+      }
+     .derechos_footer {
+       float: left;
+       width: 100%;
+       height: 15px;
+       text-align: center;
+     }
+      .derechos_footer p {
+        color: #BFBFBF;
+        font-family: sans-serif;
+        font-size: 12px;
+      }
+
+
+  /*---------------------------------*/
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
