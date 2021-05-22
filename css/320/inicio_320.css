@@ -118,7 +118,6 @@ body {
     .head_main {
       width: 90%;
       height: 550px;
-      background-color: blue;
     }
       .freelance_head_main {
         width: 180px;
@@ -209,14 +208,21 @@ body {
       height: auto;
     }
   .icons_quien_soy {
-    width: 80%;
+    width: 70%;
     height: 45px;
-    margin: 20px;
+    margin-top: 10px;
     display: flex;
   }
     .icons_quien_soy img {
-      width: 30px;
-      margin: 10px;
+      width: 27px;
+    }
+    .icon_quien_soy {
+      width: 27px;
+      height: 27px;
+    }
+    .icon_quien_soy:hover {
+      background-color: #F23041;
+      border-radius: 100%;
     }
 
 
