@@ -109,15 +109,121 @@ body {
 	}
 
 /*-------------------------------------*/
-main {
-  display: none;
+  #head_main {
+    width: 100%;
+    height: 500px;
+    padding-top: 80px;
+    margin-bottom: 80px;
+  }
+    .head_main {
+      width: 90%;
+      height: 550px;
+      background-color: blue;
+    }
+      .freelance_head_main {
+        width: 180px;
+        height: 100px;
+        float: left;
+        padding: 20px;
+      }
+        .freelance_head_main h1{
+          font-family: "font_sans";
+          font-size: 2.5rem;
+          color: #F23041;
+        }
+      .alejo_head_main {
+        width: 180px;
+        height: 100px;
+        float: left;
+        padding: 20px;
+      }
+        .alejo_head_main h2 {
+          font-family: "font_sans";
+          font-size: 2rem;
+          color: #FFFF;
+        }
+      .dino_head_main {
+        width: 280px;
+        height: 300px;
+        background-color: grey;
+        margin-top: -300px;
+        margin-right: -0px;
+        background: url('../../img/main/head_main/dino_main.png') no-repeat ;
+        background-size: auto 100%;
+        margin-bottom: 20px;
+      }
+
+#color2 {
+  width: 100%;
+  background-color: #1B0126;
+}
+#quien_soy {
+  width: 100%;
+  height: 535px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+  .quien_soy {
+    width: 90%;
+    height: 530px;
+  }
+    .titulo_quien_soy {
+      width: 100%;
+      height: 50px;
+      margin-bottom: 20px;
+    }
+      .titulo_quien_soy h1 {
+        font-family: "font_sans";
+        font-size: 2rem;
+        color: #F23041;
+      }
+
+  .texto_quien_soy {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+    .texto_quien_soy p {
+      font-family: "font_roboto";
+      font-size: 0.9rem;
+      color: #FFF;
+      line-height: 1.3rem;
+    }
+  .subtitulo_quien_soy {
+    width: 90%;
+    height: 80px;
+  }
+    .subtitulo_quien_soy h2 {
+      font-family: "font_sans";
+      font-size: 1.4rem;
+      color: #56BFAC;
+    }
+  .img_quien_soy {
+    width: 150px;
+    height: auto;
+    background-color: #F23041;
+    border-radius: 100%;
+  }
+    .img_quien_soy img{
+      width: 150px;
+      height: auto;
+    }
+  .icons_quien_soy {
+    width: 80%;
+    height: 45px;
+    margin: 20px;
+    display: flex;
+  }
+    .icons_quien_soy img {
+      width: 30px;
+      margin: 10px;
+    }
 
 
 
-
-
-
-
+img {
+  width: 50px;
+}
 
 }
 /*----------FOOTER---------------*/
