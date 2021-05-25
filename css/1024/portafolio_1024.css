@@ -20,9 +20,6 @@
 body {
   background: #090921;
 }
-body:after{
-  display:none; content: url('../../img/portafolio/garabato.png');
-}
 
 /*---BARRA DE NAVEGACION--*/
 #barra_navegacion {
@@ -130,6 +127,7 @@ body:after{
       background-color: #1B0126;
       background-position: center;
       background-size: 110% 110%;
+      background-color: #F23041;
       transition: 0.7s;
 
     }
